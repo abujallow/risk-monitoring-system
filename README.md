@@ -1,29 +1,29 @@
-# 🚨 Risk Monitoring & Alerts System
+# Risk Monitoring & Alerts System
 
 A Python-based system that analyzes financial data, calculates key risk metrics, and triggers alerts based on predefined thresholds.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project simulates a real-world **risk monitoring system** used in finance and operations.  
 It continuously evaluates market data and flags abnormal conditions such as high volatility or sharp losses.
 
 ---
 
-## ⚙️ Features
+## Features
 
-- 📊 Pulls real-time stock data using `yFinance`
-- 📉 Calculates daily returns and volatility
-- 🚨 Detects risk conditions:
+- Pulls real-time stock data using `yFinance`
+- Calculates daily returns and volatility
+- Detects risk conditions:
   - High volatility
   - Large daily losses
-- 🖥️ Displays alerts in the terminal
-- 📝 Logs system activity to `risk.log`
+- Displays alerts in the terminal
+- Logs system activity to `risk.log`
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **pandas**
@@ -32,7 +32,7 @@ It continuously evaluates market data and flags abnormal conditions such as high
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 ```bash
@@ -46,7 +46,7 @@ python app.py
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```text
 Running Risk Monitoring System...
@@ -54,12 +54,12 @@ Running Risk Monitoring System...
 Volatility: 0.0135  
 Latest Daily Return: -0.0073  
 
-✅ No major risk detected
+No major risk detected
 ```
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 - Risk metric calculation (volatility, returns)
 - Threshold-based alert systems
@@ -68,7 +68,7 @@ Latest Daily Return: -0.0073
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project demonstrates how financial institutions monitor risk exposure in real time and trigger alerts when conditions exceed acceptable thresholds.
 
